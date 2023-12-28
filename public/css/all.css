@@ -1,0 +1,30 @@
+p{
+    font-family: 'Inria Serif';
+}
+h1, h2{
+    font-family: 'Kaushan Script';
+}
+.primary-4{
+    color: #FFEBC1;
+}
+.primary-3{
+    color: #D7A86E;
+}
+.primary-2{
+    color: #A64B2A;
+}
+.primary-1{
+    color: #8E3200;
+}
+.bg-primary-4{
+    background-color: #FFEBC1;
+}
+.bg-primary-3{
+    background-color: #D7A86E;
+}
+.bg-primary-2{
+    background-color: #A64B2A;
+}
+.bg-primary-1{
+    background-color: #8E3200;
+}
