@@ -1,162 +1,215 @@
 /* rafly */
 .dr-cn a {
-  color: #8e3200;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: #8e3200;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
+
 .drop-dn:hover .dr-cn {
-  display: block;
+    display: block;
 }
+
 .dr-cn {
-  display: none;
-  position: absolute;
-  background-color: #ffebc1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 7px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #ffebc1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    z-index: 1;
 }
 
 .nav-li:hover {
-  border-bottom: solid 1px #8e3200;
-  display: block;
+    border-bottom: solid 1px #8e3200;
+    display: block;
 }
 
 .nav-sty:hover {
-  color: #a64b2a;
-  /* border-bottom: solid 1px #8E3200; */
+    color: #a64b2a;
+    /* border-bottom: solid 1px #8E3200; */
 }
 
 .nav-sty {
-  font-weight: bold;
-  font-family: 'Kaushan Script';
+    font-weight: bold;
+    font-family: 'Kaushan Script';
 }
 
 /* fitra */
 #home .banner {
-  background-image: url('../img/home.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 24px;
+    background-image: url('../img/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
 }
 
 .logo-box {
-  background-color: rgba(215, 168, 110, 0.6);
-  padding: 50px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+    background-color: rgba(215, 168, 110, 0.6);
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .logo-box img {
-  opacity: 100%;
-  width: 300px;
+    opacity: 100%;
+    width: 300px;
 }
 
 #profile {
-  background-color: #ffebc1;
+    background-color: #ffebc1;
 }
 
 #profile .text-leading {
-  line-height: 2;
+    line-height: 2;
 }
 
 #definisi-batik {
-  background: linear-gradient(to right, #d7a86e 15%, #a64b2a 10%, #a64b2a 100%);
+    background: linear-gradient(to right, #d7a86e 15%, #a64b2a 10%, #a64b2a 100%);
 }
 
 #definisi-batik .wrapper {
-  display: flex;
+    display: flex;
 }
 
 #definisi-batik img {
-  box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  width: 400px;
-  margin-top: 20px;
+    box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    margin-top: 20px;
 }
 
 #definisi-batik .text-definisi {
-  margin-left: 100px;
-  margin-top: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
 }
 
 #keunggulan {
-  min-height: 100vh;
-  background: linear-gradient(to left, #d7a86e 15%, #ffebc1 10%, #ffebc1 100%);
+    min-height: 100vh;
+    background: linear-gradient(to left, #d7a86e 15%, #ffebc1 10%, #ffebc1 100%);
 }
 
 #keunggulan .wrapper {
-  display: flex;
+    display: flex;
 }
 
 #keunggulan img {
-  box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  width: 400px;
-  margin-top: 20px;
+    box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    margin-top: 20px;
 }
 
 #keunggulan .text-keunggulan {
-  margin-right: 150px;
-  margin-top: 40px;
+    margin-right: 150px;
+    margin-top: 40px;
 }
 
 #keistimewaan {
-  background: linear-gradient(to right, #d7a86e 15%, #a64b2a 10%, #a64b2a 100%);
-  min-height: 100vh;
+    background: linear-gradient(to right, #d7a86e 15%, #a64b2a 10%, #a64b2a 100%);
+    min-height: 100vh;
 }
 
 #keistimewaan .wrapper {
-  display: flex;
+    display: flex;
 }
 
 #keistimewaan img {
-  box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
-  width: 400px;
-  margin-top: 20px;
+    box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    margin-top: 20px;
 }
 
 #keistimewaan .text-keistimewaan {
-  margin-left: 150px;
-  margin-top: 40px;
+    margin-left: 150px;
+    margin-top: 40px;
 }
 
+.icn-kon-per {
+    width: auto;
+    height: 40px;
+}
+
+.txt-per {
+    font-size: 15px;
+}
+.tl-def{
+    margin-left: 90px;
+}
 @media screen and (max-width: 600px) {
-  .logo-box img {
-    width: 150px;
-  }
-  .logo-box {
-    padding: 30px;
-  }
-  #home .banner {
-    height: 400px;
-  }
-  #definisi-batik .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  #keunggulan .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  #keistimewaan .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
+    #keistimewaan .text-keistimewaan {
+        margin-left: 65px;
+        margin-top: 40px;
+    }
+    #keistimewaan .wrapper {
+        display: block;
+        text-align: center;
+    }
+    #keistimewaan img{
+        width: 240px;
+        margin-left: 65px;
+    }
+    #keunggulan .text-keunggulan {
+        margin-right: 65px;
+        margin-top: 40px;
+    }
+    #keunggulan .wrapper {
+        display: block;
+        text-align: center;
+    }
+    #keunggulan img{
+        width: 240px;
+        margin-right: 65px;
+    }
+    #definisi-batik .text-definisi p{
+        text-align: left;
+    }
+    #definisi-batik .text-definisi {
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+    .tl-def{
+        text-align: center;
+        margin-left: 0px;
+    }
+    #definisi-batik .wrapper {
+        display: block;
+        text-align: center;
+    }
+    #definisi-batik img{
+        width: 240px;
+    }
+    .txt-per {
+        font-size: 10px;
+    }
+
+    .icn-kon-per {
+        height: 30px;
+    }
+
+    .logo-box img {
+        width: 150px;
+    }
+
+    .logo-box {
+        padding: 30px;
+    }
+
+    #home .banner {
+        height: 400px;
+    }
 }
 
 /* didik */
