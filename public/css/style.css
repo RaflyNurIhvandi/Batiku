@@ -160,3 +160,42 @@
 }
 
 /* didik */
+
+/* batik agraris & keraton */
+
+.card-shadow {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.9);
+}
+
+.text-card-size {
+  font-size: 14px;
+}
+
+.text-card-size-2 {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.text-card-size-3 {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* batik agraris & keraton end*/
+
+/* pesan */
+
+.border-c-p-1 {
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #8e3200;
+}
+
+.send-button {
+  font-family: 'Inria Serif'
+}
+
+.send-button:hover {
+  opacity: 70%;
+}
+
