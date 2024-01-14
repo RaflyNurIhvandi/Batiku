@@ -48,9 +48,12 @@
                             <span class="primary-1 nav-sty">Tentang Batik</span>
                         </a>
                         <div class="dr-cn" id="nav-dr-cn1">
-                            <a href="#definisi-batik" onclick="dis_none1()"><span class="primary-1 nav-sty">Definisi Batik</span></a>
-                            <a href="#keunggulan" onclick="dis_none1()"><span class="primary-1 nav-sty">Keunggulan</span></a>
-                            <a href="#keistimewaan" onclick="dis_none1()"><span class="primary-1 nav-sty">Keistimewaaan</span></a>
+                            <a href="#definisi-batik" onclick="dis_none1()"><span class="primary-1 nav-sty">Definisi
+                                    Batik</span></a>
+                            <a href="#keunggulan" onclick="dis_none1()"><span
+                                    class="primary-1 nav-sty">Keunggulan</span></a>
+                            <a href="#keistimewaan" onclick="dis_none1()"><span
+                                    class="primary-1 nav-sty">Keistimewaaan</span></a>
                         </div>
                     </li>
                     <li class="nav-item ms-3 nav-li drop-dn" onmousemove="dis_block2()" onmouseout="dis_none2()">
@@ -58,8 +61,10 @@
                             <span class="primary-1 nav-sty">Produk Batik</span>
                         </a>
                         <div class="dr-cn" id="nav-dr-cn2">
-                            <a href="#batik-agraris" onclick="dis_none2()"><span class="primary-1 nav-sty">Batik Agraris</span></a>
-                            <a href="#batik-keraton" onclick="dis_none2()"><span class="primary-1 nav-sty">Batik Keraton</span></a>
+                            <a href="#batik-agraris" onclick="dis_none2()"><span class="primary-1 nav-sty">Batik
+                                    Agraris</span></a>
+                            <a href="#batik-keraton" onclick="dis_none2()"><span class="primary-1 nav-sty">Batik
+                                    Keraton</span></a>
                         </div>
                     </li>
                     <li class="nav-item ms-3 nav-li">
@@ -133,7 +138,8 @@
                     </div>
                     <!-- location -->
                     <div class="d-flex flex-column align-items-center justify-content-center">
-                        <div class="mt-4 aos-kanan"><img src="public/img/icon/lokasi.png" style="width: 60px;" alt="" srcset="">
+                        <div class="mt-4 aos-kanan"><img src="public/img/icon/lokasi.png" style="width: 60px;" alt=""
+                                srcset="">
                         </div>
                         <p class="text-center mx-2 primary-2 aos-kanan">Rt 10, Rw 04, Desa.Sidomulyo, Kecamatan.Pule,
                             Kabupaten.Trenggalek,
@@ -433,11 +439,69 @@
                 </div>
             </div>
             <h4 class="primary-1 aos-kiri">Pesan</h4>
-            <textarea class="aos-kiri border-c-p-1 p-2 bg-primary-4 primary-1 w-100 mb-2" style="height: 30vh;"></textarea>
-            <a href="#" class="text-decoration-none primary-4 bg-primary-1 send-button px-4 py-1 rounded-3 text-white aos-kiri">kirim</a>
+            <textarea class="aos-kiri border-c-p-1 p-2 bg-primary-4 primary-1 w-100 mb-2"
+                style="height: 30vh;"></textarea>
+            <a href="#"
+                class="text-decoration-none primary-4 bg-primary-1 send-button px-4 py-1 rounded-3 text-white aos-kiri">kirim</a>
         </div>
     </section>
     <!-- end pesan -->
+
+    <!-- whatsapp -->
+    <div class="scroll-icon" id="scrollIcon">
+        <div class=" bg-success d-flex align-items-center">
+            <a href="https://api.whatsapp.com/send?phone=6282232984829"><img src="public/img/icon/whatsapp-icon.svg"
+                    style="width: 40px; margin-bottom: 3px;" alt="" class="" srcset=""></a>
+            <span class="ms-2">Chat Via Whatsapp</span>
+        </div>
+    </div>
+    <!-- end whatsapp -->
+
+    <!-- cart -->
+    <div>
+        <div class="scroll-cart" id="scrollCart" id="popUpImage" onclick="openPopUp()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg>
+        </div>
+    </div>
+    <!-- end cart -->
+
+    <!-- cart pop-up -->
+    <div id="popUpCart">
+        <!-- Konten pop-up -->
+        <div id="popUpContent">
+            <span id="closeButton" class="btn-close" onclick="closePopUp()"></span>
+            <div class=" mb-2 content-icon shopee-icon">
+                <a href="" class="d-flex align-items-center">
+                    <img style=" width: 40px;" src="public/img/icon/shopee-icon.svg" alt="" srcset="">
+                    <p class="my-2 ms-2">Shopee</p>
+                </a>
+            </div>
+            <div class=" my-2 content-icon tokopedia-icon">
+                <a href="" class="d-flex align-items-center">
+                    <img style=" width: 40px;" src="public/img/icon/tokopedia-icon.svg" alt="" srcset="">
+                    <p class="my-2 ms-2">Tokopedia</p>
+                </a>
+            </div>
+            <div class=" my-2 content-icon tiktok-icon">
+                <a href="" class="d-flex align-items-center">
+                    <img style=" width: 40px;" src="public/img/icon/tiktok-icon.svg" alt="" srcset="">
+                    <p class="my-2 ms-2">TiktokShop</p>
+                </a>
+            </div>
+            <div class=" my-2 content-icon lazada-icon">
+                <a href="" class="d-flex align-items-center">
+                    <img style=" width: 39px;" src="public/img/icon/lazada-icon.png" alt="" srcset="">
+                    <p class="my-2 ms-2">Lazada</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- end cart pop-up -->
 
     <!-- footer -->
     <footer class="bg-primary-3">
@@ -449,11 +513,16 @@
                 <div class="col-md-3 my-3 my-md-0 d-flex justify-content-center">
                     <div class="pen-fot">
                         <h5 class="primary-1 mb-3">Links</h5>
-                        <p class="lh-1"><a href="#" class="text-decoration-none"><span class="primary-1">Menu</span></a></p>
-                        <p class="lh-1"><a href="#profile" class="text-decoration-none"><span class="primary-1">Profile</span></a></p>
-                        <p class="lh-1"><a href="#definisi-batik" class="text-decoration-none"><span class="primary-1">Tentang Batik</span></a></p>
-                        <p class="lh-1"><a href="#batik-agraris" class="text-decoration-none"><span class="primary-1">Blog Batik</span></a></p>
-                        <p class="lh-1"><a href="#pesan" class="text-decoration-none"><span class="primary-1">Pesan</span></a></p>
+                        <p class="lh-1"><a href="#" class="text-decoration-none"><span class="primary-1">Menu</span></a>
+                        </p>
+                        <p class="lh-1"><a href="#profile" class="text-decoration-none"><span
+                                    class="primary-1">Profile</span></a></p>
+                        <p class="lh-1"><a href="#definisi-batik" class="text-decoration-none"><span
+                                    class="primary-1">Tentang Batik</span></a></p>
+                        <p class="lh-1"><a href="#batik-agraris" class="text-decoration-none"><span
+                                    class="primary-1">Blog Batik</span></a></p>
+                        <p class="lh-1"><a href="#pesan" class="text-decoration-none"><span
+                                    class="primary-1">Pesan</span></a></p>
                     </div>
                 </div>
                 <div class="col-md-3 my-3 my-md-0 d-flex justify-content-center">
@@ -482,8 +551,13 @@
                 <div class="col-md-3 my-3 my-md-0 d-flex justify-content-center">
                     <div class="pen-fot">
                         <h5 class="primary-1 mb-2">Tentang Kami</h5>
-                        <p class="primary-1">Jasa pembuatan batik Indonesia BATIKU melayani pembuatan dan pemesanan ragam batik seluruh Indonesia. <a href="#profile" class="text-decoration-none"><span class="fst-italic fw-bold primary-1" style="font-size:small;">Selengkapnya</span></a></p>
-                        <a href="" class="text-decoration-none primary-4 bg-primary-1 send-button px-4 py-1 rounded-3 text-white">Hubungi Sekarang</a>
+                        <p class="primary-1">Jasa pembuatan batik Indonesia BATIKU melayani pembuatan dan pemesanan
+                            ragam batik seluruh Indonesia. <a href="#profile" class="text-decoration-none"><span
+                                    class="fst-italic fw-bold primary-1"
+                                    style="font-size:small;">Selengkapnya</span></a></p>
+                        <a href=""
+                            class="text-decoration-none primary-4 bg-primary-1 send-button px-4 py-1 rounded-3 text-white">Hubungi
+                            Sekarang</a>
                     </div>
                 </div>
             </div>

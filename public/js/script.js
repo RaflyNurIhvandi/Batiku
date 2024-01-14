@@ -25,3 +25,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   })
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+  var scrollIcon = document.getElementById('scrollCart')
+
+  window.addEventListener('scroll', function () {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      scrollIcon.style.opacity = '1'
+    } else {
+      scrollIcon.style.opacity = '0'
+    }
+  })
+})
+
+function openPopUp() {
+  document.getElementById('popUpCart').style.display = 'flex'
+}
+
+function closePopUp() {
+  document.getElementById('popUpCart').style.display = 'none'
+}

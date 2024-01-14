@@ -190,6 +190,7 @@
 .pen-fot {
   text-align: left;
 }
+
 @media screen and (max-width: 600px) {
   .pen-fot {
     text-align: center;
@@ -308,13 +309,132 @@
   opacity: 70%;
 }
 
+/* wa */
+
 .scroll-icon {
   position: fixed;
   bottom: 30px;
-  left: 40px;
+  left: 30px;
   font-size: 24px;
   color: #333;
   opacity: 0;
   transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.scroll-icon div {
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+}
+
+.scroll-icon span {
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+}
+
+/* cart */
+
+.scroll-cart {
+  position: fixed;
+  bottom: 100px;
+  left: 30px;
+  font-size: 24px;
+  color: #8e3200;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  background: #ffebc1;
+  padding: 10px;
+  padding-top: 5px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Styling untuk gambar */
+#popUpImage {
+  cursor: pointer;
+}
+
+/* Styling untuk pop-up */
+#popUpCart {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+  width: 200px;
+  height: auto;
+  background-color: white;
+  padding: 30px 25px 25px 25px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+}
+
+#popUpContent {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.shopee-icon {
+  background-color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.content-icon a {
+  color: #333;
+  text-decoration: none;
+}
+
+.content-icon a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.shopee-icon:hover {
+  /* bingung */
+}
+
+.tokopedia-icon:hover {
+  /* bingung */
+}
+
+.tiktok-icon:hover {
+  /* bingung */
+}
+
+.lazada-icon:hover {
+  /* bingung */
+}
+
+#closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #333;
+  font-size: 13px;
   cursor: pointer;
 }
