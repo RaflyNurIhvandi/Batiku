@@ -1,5 +1,11 @@
 /* aos */
 /* kanan */
+.border-galeri {
+  border: 15px solid #d7a86e;
+}
+.txt-galeri {
+  text-align: center;
+}
 .aos-kanan {
   transform: translateX(10%);
   opacity: 0;
@@ -51,7 +57,7 @@
 .dr-cn {
   display: none;
   position: absolute;
-  background-color: #ffebc1;
+  background-color:#d7a86e;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
@@ -70,7 +76,7 @@
 
 .nav-sty {
   font-weight: bold;
-  font-family: 'Kaushan Script';
+  font-family: 'Optima';
 }
 
 /* fitra */
@@ -108,6 +114,7 @@
 
 #profile .text-leading {
   line-height: 2;
+  text-align: justify;
 }
 
 #definisi-batik {
@@ -191,7 +198,76 @@
   text-align: left;
 }
 
+.togl {
+  display: none;
+}
+.nav-res {
+  display: none;
+}
+.tg-bt {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
+  .tg-bt ul li {
+    cursor: pointer;
+  }
+  .tg-bt ul {
+    list-style: none;
+    transform: translateX(-15px);
+  }
+  .tg-bt {
+    background-color: #d7a86e;
+    width: 175px;
+    display: none;
+    list-style: none;
+    position: fixed;
+    transform: translate(22px, 155px);
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.1);
+  }
+  .nav-res ul li :hover {
+    color: #a64b2a;
+  }
+  .nav-res ul li {
+    cursor: pointer;
+  }
+  .nav-res ul {
+    list-style: none;
+    transform: translateX(-15px);
+  }
+  .nav-res {
+    background-color: #d7a86e;
+    width: 175px;
+    display: none;
+    position: fixed;
+    transform: translate(170px, 95px);
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.1);
+  }
+  .transform_bawah {
+    rotate: 43deg;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+  }
+  .transform_atas {
+    rotate: -43deg;
+    transform: translateY(10px);
+    transition-duration: 0.5s;
+  }
+  .garis {
+    display: block;
+    border-bottom: 2px solid black;
+    width: 30px;
+    padding: 0.2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .togl {
+    display: block;
+  }
   .pen-fot {
     text-align: center;
   }
@@ -226,7 +302,7 @@
   }
 
   #definisi-batik .text-definisi p {
-    text-align: left;
+    text-align: justify;
   }
 
   #definisi-batik .text-definisi {
