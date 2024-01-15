@@ -209,6 +209,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .txt-galeri {
+    text-align: justify;
+  }
   .tg-bt ul li {
     cursor: pointer;
   }
