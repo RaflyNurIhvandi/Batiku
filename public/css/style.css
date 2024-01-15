@@ -139,7 +139,7 @@
 }
 
 #keunggulan {
-  min-height: 100vh;
+  min-height: auto;
   background: linear-gradient(to left, #d7a86e 15%, #ffebc1 10%, #ffebc1 100%);
 }
 
