@@ -1,3 +1,26 @@
+function tgbt_block() {
+  document.getElementById('tg-bt').style.display = "block"
+}
+function tgbt_none() {
+  document.getElementById('tg-bt').style.display = "none"
+}
+function tgl_active() {
+  if (document.getElementById('garis-2').style.borderBottom == "none") {
+    document.getElementById('garis-1').classList.remove("transform_atas")
+    document.getElementById('garis-3').classList.remove("transform_bawah")
+    document.getElementById('garis-2').style.borderBottom = "2px solid black"
+    document.getElementById('garis-1').style.transitionDuration = "0.5s"
+    document.getElementById('garis-3').style.transitionDuration = "0.5s"
+    document.getElementById('garis-2').style.transitionDuration = "0.5s"
+    document.getElementById('nav-rs').style.display = "none"
+  } else {
+    document.getElementById('garis-1').classList.add("transform_atas")
+    document.getElementById('garis-3').classList.add("transform_bawah")
+    document.getElementById('garis-2').style.borderBottom = "none"
+    document.getElementById('nav-rs').style.display = "block"
+  }
+}
+
 function dis_none1() {
   document.getElementById('nav-dr-cn1').style.display = 'none'
 }
