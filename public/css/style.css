@@ -291,6 +291,22 @@
   line-height: 23px;
 }
 
+.card-body {
+  z-index: 1;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  transition: all 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.4);
+}
+
 /* batik agraris & keraton end*/
 
 /* pesan */
